@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1" >
+    <test name="Regression1" >
+        <packages>
+            <package name="com.duanlei.productdemo.testcase.*" />
+        </packages>
+        <!--<classes>-->
+            <!--<class name="com.duanlei.productdemo.testcase.demo.ApiDemo">-->
+                <!--<methods>-->
+                    <!--<include name="test_post"></include>-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    </test>
+</suite>
